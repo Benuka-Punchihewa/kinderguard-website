@@ -9,12 +9,12 @@
         <link rel="stylesheet" href="./css/main.css">
         <title>KinderGuard</title>
     </head>
-    <body style="background-color: #E9F7EF">
+    <body style="background-color: #e3f7ff">
         <!-- NavBar -->
         <nav id="navmenu" class="navbar navbar-expand-lg sticky-top">
             <a class="navbar-brand" href="#home">
             <img src="./Images/logo/icon.png" height="30" class="d-inline-block align-top"  loading="lazy">
-            <span>KinderGuard</span></br>
+            <span>KinderGuard</span><br/>
             </a>
             <button id="nav-toggle" class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span id="nav-toggle-icon" class="fas fa-ellipsis-v"></span>
@@ -75,8 +75,9 @@
             <div class="container">
             <h5 class="section-headings">Project Scope</h5>
             <!-- Literature Survey -->
-            <div id="literature" class="sub-section">
-                <h2>Literature Survey</h2>
+            <div id="literature" class="sub-section" >
+                <h2 style="color: #002668;">Literature Survey</h2>
+
                 <div class="row">
                     <div id="project-scope-left" class="col-md-6 col-sm-12 pt-lg-5">
                         <div class="section-left">
@@ -86,7 +87,7 @@
                             </div>
                         </div>
                     </div>
-                    <div id="project-scope-right" class="col-md-6 col-sm-12 pt-lg-5 justify-text">
+                    <div id="project-scope-right" class="col-md-6 col-sm-12 pt-lg-5 justify-text" style="border-radius: 12px; background-color:#e3f7ff">
                         <p>Child sexual abuse has been established to have enduring and often lifelong 
                             consequences on the mental health of victims. Its ramifications extend to physical health, 
                             mental well-being, education, employment opportunities, and overall quality of life for 
@@ -128,74 +129,70 @@
                 </div>
             </div>
             <!-- Research Gap -->
-            <div id="research_gap" class="sub-section" >
-                <h2>Research Gap</h2>
-                <p>Following areas are the research gaps were found in most of the recent researches.</p>
-                <div class="row mt-5 research-gap">
-                    <div class="container">
-                        <div class="row">
-                            <div class="col-md-4">
-                                <div class="fa-container text-center">
-                                    <i class="fas fa-search fa-3x " aria-hidden="true" style="color: green; "></i>
-                                </div>
-                                <div class="text-center" style="padding-top: 20px;">
-                                    <h5>Identification & Classification </h5>
-                                </div>
-                                <div>
-                                    <p style="text-align: justify;"> There are currently no IoT-based solutions that leverage AI to detect child abuse. Utilizing technologies like speech analysis, motion detection, and geofencing could help in identifying abuse. However, ensuring the accuracy of these detections remains a significant challenge.</p>
-                                </div>
-                            </div>
-                            <div class="col-md-4">
-                                <div class="fa-container text-center">
-                                    <i class="fas fa-chart-line fa-3x " aria-hidden="true" style="color: green;"></i>
-                                </div>
-                                <div class="text-center" style="padding-top: 20px;">
-                                    <h5>Severity Assessment</h5>
-                                </div>
-                                <div>
-                                    <p style="text-align: justify;">Child abuse is a sensitive issue requiring careful handling, especially when providing technological solutions. It's crucial to ensure the severity levels of detection are accurate and to send SOS alerts only when necessary. False alerts could cause unnecessary panic for guardians and provoke authorities.
-                                    </p>
-                                </div>
-                            </div>
-                            <div class="col-md-4">
-                                <div class="fa-container text-center">
-                                    <i class="fas fa-comments fa-3x " aria-hidden="true" style="color: green;"></i>
-                                </div>
-                                <div class="text-center" style="padding-top: 20px;">
-                                    <h5>Croudsourcing</h5>
-                                </div>
-                                <div>
-                                    <p style="text-align: justify;">Authorities may not always be available for swift help. Trained volunteers could offer timely assistance to children in need. Effective methodologies should be implemented to ensure multiple volunteers can coordinate and respond to incidents as quickly as possible.
-                                </div>
-                            </div>
-                        </div>
-                    </div>
+<div id="research_gap" class="sub-section">
+    <h2 style="color: #002668;">Research Gap</h2>
+    <p>Following areas are the research gaps were found in most of the recent researches.</p>
+    <div class="row mt-5 research-gap">
+        <div class="col-md-4 mb-4">
+            <div class="card h-100 text-center" style="background-color: #e3f7ff; border-radius: 12px; border: none;">
+                <div class="fa-container">
+                    <i class="fas fa-search fa-3x" aria-hidden="true" style="color: rgb(13, 121, 204); padding-top: 20px;"></i>
+                </div>
+                <div class="card-body">
+                    <h5 class="card-title">Identification & Classification</h5>
+                    <p class="card-text" style="text-align: justify;">There are currently no IoT-based solutions that leverage AI to detect child abuse. Utilizing technologies like speech analysis, motion detection, and geofencing could help in identifying abuse. However, ensuring the accuracy of these detections remains a significant challenge.</p>
                 </div>
             </div>
+        </div>
+        <div class="col-md-4 mb-4">
+            <div class="card h-100 text-center" style="background-color: #e3f7ff; border-radius: 12px; border: none;">
+                <div class="fa-container">
+                    <i class="fas fa-chart-line fa-3x" aria-hidden="true" style="color: rgb(13, 121, 204); padding-top: 20px;"></i>
+                </div>
+                <div class="card-body">
+                    <h5 class="card-title">Severity Assessment</h5>
+                    <p class="card-text" style="text-align: justify;">Child abuse is a sensitive issue requiring careful handling, especially when providing technological solutions. It's crucial to ensure the severity levels of detection are accurate and to send SOS alerts only when necessary. False alerts could cause unnecessary panic for guardians and provoke authorities.</p>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4 mb-4">
+            <div class="card h-100 text-center" style="background-color: #e3f7ff; border-radius: 12px; border: none;">
+                <div class="fa-container">
+                    <i class="fas fa-comments fa-3x" aria-hidden="true" style="color: rgb(13, 121, 204); padding-top: 20px;"></i>
+                </div>
+                <div class="card-body">
+                    <h5 class="card-title">Crowdsourcing</h5>
+                    <p class="card-text" style="text-align: justify;">Authorities may not always be available for swift help. Trained volunteers could offer timely assistance to children in need. Effective methodologies should be implemented to ensure multiple volunteers can coordinate and respond to incidents as quickly as possible.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
             <!-- Research Problem -->
             <div id="research_problem" class="sub-section">
-                <h2>Research Problem & Solution</h2>
-                <div class="row">
-                    <div id="project-scope-left" class="col-md-6 col-sm-12 pt-lg-3 justify-text">
+                <h2 style="color: #002668;">Research Problem & Solution</h2>
+                <!-- <div class="row" > -->
+                    <div id="project-scope-left" class=" pt-lg-3" >
                         <h5><strong>Proposed Problem</strong></h5>
-                        </br>
+                        <br/>
                         <h4 class="highlight">How to identify child abuse laveraging IoT and Artifical Intelligence?</h4>
                         <p></p>
                         <p style="text-align: justify;">Child sexual abuse has become a pressing issue worldwide. Despite the availability of various solutions, many have significant limitations. In the era of IoT and Artificial Intelligence, the challenge is to evaluate how these technologies can be leveraged to build a solution for the early detection and prevention of child sexual abuse.</p>
-                        </br>
+                        <br/>
                     </div>
-                    <div id="project-scope-right" class="col-md-6 col-sm-12 pt-lg-3">
+                    <!-- <div id="project-scope-right" class=" pt-lg-3">
                         <div class="section-left">
                             <div class="section-figure">
                                 <iframe width="100%" height="315" src="https://www.youtube.com/embed/wVhPWCl7lm4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                                 <center><p>Product Demonstration - Solution</p></center>
                             </div>
                         </div>
-                    </div>
-                </div>
+                    </div> -->
+                <!-- </div> -->
                 <div>
                     <h5><strong>Proposed Solution</strong></h5>
-                    </br>
+                    <br/>
                     <p style="text-align: justify;"> The proposed solution aims to address the critical issue of child sexual abuse by leveraging the power of Internet of Things (IoT) technology and artificial intelligence (AI). The system is designed to autonomously detect potential abuse instances and initiate appropriate responses without relying on manual activation, which may not be feasible in urgent situations. It processes audio feeds through two parallel pipelines: emotion classification and sentiment analysis. The emotion classification pipeline extracts Mel-frequency cepstral coefficients (MFCCs) from the audio feed and feeds them into a deep learning model to classify the child's emotions. In the sentiment analysis pipeline, an Automatic Speech Recognition system powered by the Wav2Vec model converts the audio into text, which is then processed using Natural Language Processing (NLP) techniques. TF-IDF vectors derived from the text are analyzed using an SVM-based model to detect profanity and assign weights to predictions.	</P>
                     <p style="text-align: justify;"> The system aggregates data over 30-second intervals to calculate a severity score, which determines the need for sending SOS alerts to authorities and guardians via Firebase Cloud Messaging API. The alerts are disseminated through a mobile application for guardians and an administrator dashboard for child protection authorities.	</P>
                     <p style="text-align: justify;"> Volunteers can interact with the system through a React Native frontend and Node.js backend. They can report potential abuse incidents, which are processed using the Haversine Formula to identify nearby volunteers and children. Machine learning models and computer vision algorithms assess the severity of reported incidents. The system alerts volunteers and parents based on the severity level, using IoT devices to further assess threat levels in low to medium severity cases.	</P>
@@ -203,17 +200,25 @@
                     <p style="text-align: justify;"> 	The foot motion analysis component uses accelerometers and gyroscopes to capture foot movements, which are classified using a Support Vector Classifier (SVC). The system detects patterns indicative of potential abuse, assigns weights to these movements, and aggregates the data to assess the likelihood of abuse.</P>
                     <p style="text-align: justify;"> This comprehensive approach, integrating IoT devices, real-time data processing, and advanced algorithms, aims to proactively intervene in potential abuse situations, safeguarding children and providing peace of mind for families.	</P>
                 </div>
+                <div id="project-scope-right" class=" pt-lg-3">
+                        <div class="section-left">
+                            <div class="section-figure">
+                                <iframe width="100%" height="620" src="https://www.youtube.com/embed/wVhPWCl7lm4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                                <center><p>Product Demonstration - Solution</p></center>
+                            </div>
+                        </div>
+                    </div>
             </div>
             <!-- Research Objectives -->
             <div id="research_objectives" class="sub-section">
                 <div class="container">
-                    <h2 class="pb-5 pt-5 text-center mb-5 display-5">Research Objectives</h2>
+                    <h2 class="pb-5 pt-5 text-center mb-5 display-5" style="color: #002668;">Research Objectives</h2>
                     <!-- First Content Section-->
                     <div class="row align-items-center connecting-lines d-flex">
                         <div class="col-2 text-center bottom d-inline-flex justify-content-center align-items-center">
                             <div class="circle font-weight-bold"><i class="fa fa-star"></i></div>
                         </div>
-                        <div class="col-6">
+                        <div class="col-6" >
                             <h4>Device Development & Geofencing</h4>
                             <p style="text-align: justify;">The primary objective is to develop an IoT device integrated into a child’s shoe, equipped with sensors such as a gyroscope, accelerometer, microphone, and GPS, all powered by a Raspberry Pi. The device will continuously monitor the child's movements, environment, and location to identify potential danger signs. Additionally, the system aims to implement a robust geofencing feature that allows parents to define safe zones using a mobile application. Alerts will be triggered whenever the child moves outside these predefined areas, ensuring real-time protection and swift responses to potential threats.</p>
                         </div>
@@ -300,8 +305,8 @@
             </div>
             <!-- Methodology -->
             <div id="methodology" class="sub-section">
-                <h2>Methodology</h2>
-                <div class="row">
+                <h2 style="color: #002668;">Methodology</h2>
+                <div class="row gap-0">
                     <div id="project-scope-left" class="col-md-6 col-sm-12 pt-lg-5" style="display: flex; align-items: center;">
                         <div class="section-left">
                             <div class="section-figure">
@@ -310,7 +315,7 @@
                             </div>
                         </div>
                     </div>
-                    <div id="project-scope-right" class="col-md-6 col-sm-12 pt-lg-5 justify-text">
+                    <div id="project-scope-right" class="col-md-6 col-sm-12 pt-lg-5 justify-text" style="border-radius: 12px; background-color:#e3f7ff">
                         <p>The proposed solution comprises 7 main components:</p>
                         <ol>
                             <li><strong>IoT Device with Integrated Sensors</strong></li>
@@ -329,7 +334,7 @@
             </div>
             <!-- Technologies Used -->
             <div id="tech_used" class="sub-section">
-                <h2>Technologies Used</h2>
+                <h2 style="color: #002668;">Technologies Used</h2>
                 <div class="row technology mt-5">
                     <div class="col-md-2 col-sm-4 col-6 mb-5">
                         <div class="avatar">
@@ -407,11 +412,11 @@
             </div>
         </section>
         <!-- Milestones -->
-        <section id="milestones" class="main-sections" >
+        <section id="milestones" class="main-sections" style="background-color: rgb(214, 244, 255);">
             <div class="container">
-                <h5 class="section-headings">Milestones</h5>
+                <h5 class="section-headings" >Milestones</h5>
                 <div class="sub-section">
-                    <h2>Timeline in Brief</h2>
+                    <h2 style="color: #002668;">Timeline in Brief</h2>
                     <div class="milestones">
                         <ul class="timeline">
                             <!-- Project Proposal -->
@@ -531,7 +536,7 @@
             </div>
         </section>
         <!-- Downloads -->
-        <section id="downloads" class="main-sections" >
+        <section id="downloads" class="main-sections" style="background-color: #e3f7ff;">
             <div class="container">
                 <h5 class="section-headings">Downloads</h5>
                 <!-- Documents -->
@@ -689,9 +694,9 @@
         <!-- About Us -->
         <section id="about" class="main-sections " style="background-color:#FDFEFE">
             <div class="container">
-                <h5 class="section-headings">About Us</h5>
+                <h5 class="section-headings" >About Us</h5>
                 <div class="sub-section about-us-container ">
-                    <h2>Meet Our Team !</h2>
+                    <h2 style="color: #002668;">Meet Our Team !</h2>
                     <div class="row  mt-sm-5 ">
                         <!-- Supervisor -->
                         <div class="col-lg-3 col-md-4 col-sm-12">
@@ -699,7 +704,7 @@
                                 <img src="./Images/dp/pradeep.jpg" class="about-us-image supervisor" alt="Prof. Pradeep Abeygunawardhana"/>
                                 <div class="card-body">
                                     <h5 class="card-title">Prof. Pradeep Abeygunawardhana</h5>
-                                    </br>
+                                    <br/>
                                     <span class="badge badge-secondary">Supervisor</span>
                                     <div class="text-group">
                                         <p>Sri Lanka Institute of Information Technology</p>
@@ -723,7 +728,7 @@
                                 <img src="./Images/dp/poojani.jpeg" class="about-us-image cosupervisor" alt="Ms. Poojani Gunathilake"/>
                                 <div class="card-body">
                                     <h5 class="card-title">Ms. Poojani Gunathilake</h5>
-                                    </br>
+                                    <br/>
                                     <span class="badge badge-secondary">Co-Supervisor</span>
                                     <div class="text-group">
                                         <p>Sri Lanka Institute of Information Technology</p>
@@ -747,8 +752,8 @@
                                 <img src="./Images/dp/samitha.JPG" class="about-us-image " alt="Vidhanaarachchi S.P"/>
                                 <div class="card-body">
                                     <h5 class="card-title">Vidhanaarachchi S.P</h5>
-                                    </br>
-                                    </br>
+                                    <br/>
+                                    <br/>
                                     <span class="badge badge-secondary">External Supervisor</span>
                                     <div class="text-group">
                                         <p>Sri Lanka Institute of Information Technology</p>
@@ -772,8 +777,8 @@
                                 <img src="./Images/dp/shanika.jpeg" class="about-us-image cosupervisor" alt="Ms. Shanika Malalgoda"/>
                                 <div class="card-body">
                                     <h5 class="card-title">Ms. Shanika Malalgoda</h5>
-                                    </br>
-                                    </br>
+                                    <br/>
+                                    <br/>
                                     <span class="badge badge-secondary">External-Supervisor</span>
                                     <div class="text-group">
                                         <p>National Child Protection Authority</p>
@@ -799,7 +804,7 @@
                                 <img src="./Images/dp/benuka.jpg" class="about-us-image " alt="Punchihewa B.B."/>
                                 <div class="card-body">
                                     <h5 class="card-title">Punchihewa B.B.</h5>
-                                    </br>
+                                    <br/>
                                     <span class="badge badge-secondary">Group Leader</span>
                                     <div class="text-group">
                                         <p>Sri Lanka Institute of Information Technology</p>
@@ -823,7 +828,7 @@
                                 <img src="./Images/dp/sumedha.jpeg" class="about-us-image" alt="Bandaranayaka B.M.S.L"/>
                                 <div class="card-body">
                                     <h5 class="card-title">Bandaranayaka B.M.S.L</h5>
-                                    </br>
+                                    <br/>
                                     <span class="badge badge-secondary">Group Member</span>
                                     <div class="text-group">
                                         <p>Sri Lanka Institute of Information Technology</p>
@@ -847,7 +852,7 @@
                                 <img src="./Images/dp/supun.jpeg" class="about-us-image" alt="Premachandra G.G."/>
                                 <div class="card-body">
                                     <h5 class="card-title">Premachandra G.G.</h5>
-                                    </br>
+                                    <br/>
                                     <span class="badge badge-secondary">Group Member</span>
                                     <div class="text-group">
                                         <p>Sri Lanka Institute of Information Technology</p>
@@ -871,7 +876,7 @@
                                 <img src="./Images/dp/heshini.jpg" class="about-us-image" alt="Weerasinghe H.S.R.A"/>
                                 <div class="card-body">
                                     <h5 class="card-title">Weerasinghe H.S.R.A</h5>
-                                    </br>
+                                    <br/>
                                     <span class="badge badge-secondary">Group Member</span>
                                     <div class="text-group">
                                         <p>Sri Lanka Institute of Information Technology</p>
@@ -894,11 +899,11 @@
             </div>
         </section>
         <!-- Contact Us -->
-        <section id="contact" class="main-sections mb-sm-5" style="background-color:#FDFEFE">
+        <section id="contact" class="main-sections mb-sm-5" style="background-color: rgb(214, 244, 255);">
             <div class="container pb-sm-5">
                 <h5 class="section-headings">Contact Us</h5>
                 <div class="sub-section">
-                    <h2>Get in Touch</h2>
+                    <h2 style="color: #002668;">Get in Touch</h2>
                     <div class="row  mt-sm-5">
                         <div class="col-md-6 col-sm-12 contact-form">
                             <form action="MAILTO:rkinderguard.me@gmail.com" method="POST" enctype="text/plain">
@@ -914,7 +919,7 @@
                                     <label for="message">Message or Query</label>
                                     <textarea class="form-control" id="message" rows="5"></textarea>
                                 </div>
-                                <button type="submit" class="btn btncolorgradient	">Submit</button>
+                                <button type="submit" class="btn" style="background-color: #002668;">Submit</button>
                             </form>
                         </div>
                         <div class="col-md-6 col-sm-12 contact-details">
